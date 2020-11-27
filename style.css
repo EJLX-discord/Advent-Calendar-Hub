@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  color: #444e58;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(42, 152, 216);
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+h1 {
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+li {
+  padding: 5px 0;
+  list-style-type: none;
+}
+
+.main-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.title-bar {
+  padding: 20px 15px;
+}
+
+.year-menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.year-card {
+  flex: 1 1 50%;
+  padding: 10px;
+  min-width: 250px;
+  height: 100px;
+}
+
+.year-button {
+  display: flex;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+  padding: 0 25px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  transition: .2s box-shadow linear;
+  box-shadow: 2px 0px 0px 0px rgb(206, 200, 200), 
+  0px 2px 0px 0px #ddd,
+  -2px 0px 0px 0px #ddd,
+  0px 0px 0px 2px #ddd,
+  5px 5px 0px 5px rgba(0,0,0,0);
+}
+
+.button-1:hover {
+  box-shadow: 4px 0px 0px 0px #ffcdb2, 
+  0px 4px 0px 0px #ffb4a2,
+  -4px 0px 0px 0px #e5989b,
+  0px 0px 0px 4px #b5838d,
+  5px 5px 0px 5px rgba(0,0,0,0);
+}
+
+.button-2:hover {
+  box-shadow: 4px 0px 0px 0px #faedcb, 
+  0px 4px 0px 0px #c9e4de,
+  -4px 0px 0px 0px #c6def1,
+  0px 0px 0px 4px #dbcdf0,
+  5px 5px 0px 5px rgba(0,0,0,0);
+}
+
+.button-3:hover {
+  box-shadow: 4px 0px 0px 0px #fe938c, 
+  0px 4px 0px 0px #e6b89c,
+  -4px 0px 0px 0px #ead2ac,
+  0px 0px 0px 4px #9cafb7,
+  5px 5px 0px 5px rgba(0,0,0,0);
+}
+
+.button-4:hover {
+  box-shadow: 4px 0px 0px 0px #ff928b, 
+  0px 4px 0px 0px #fec3a6,
+  -4px 0px 0px 0px #efe9ae,
+  0px 0px 0px 4px #cdeac0,
+  5px 5px 0px 5px rgba(0,0,0,0);
+}
+
+.year-button:hover {
+
+}
+
+.subtext {
+  color: grey;
+}
