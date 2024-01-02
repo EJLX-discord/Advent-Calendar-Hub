@@ -120,13 +120,21 @@ li {
   5px 5px 0px 5px rgba(0,0,0,0);
 }
 
-/* .button-6:hover {
+.button-6:hover {
   box-shadow: 4px 0px 0px 0px #38b48b, 
   0px 4px 0px 0px #f80000,
   -4px 0px 0px 0px #f7c114,
   0px 0px 0px 4px #f09199,
   5px 5px 0px 5px rgba(0,0,0,0);
-} */
+}
+
+.button-7:hover {
+  box-shadow: 4px 0px 0px 0px #CAD49D, 
+  0px 4px 0px 0px #d4eac8,
+  -4px 0px 0px 0px #C0D8E0,
+  0px 0px 0px 4px #56A3A6,
+  5px 5px 0px 5px rgba(0,0,0,0);
+}
 
 .year-button:hover {
 
