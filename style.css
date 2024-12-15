@@ -136,6 +136,14 @@ li {
   5px 5px 0px 5px rgba(0,0,0,0);
 }
 
+.button-8:hover {
+  box-shadow: 4px 0px 0px 0px #B9BAA3, 
+  0px 4px 0px 0px #D6D5C9,
+  -4px 0px 0px 0px #A22C29,
+  0px 0px 0px 4px #902923,
+  5px 5px 0px 5px rgba(0,0,0,0);
+}
+
 .year-button:hover {
 
 }
